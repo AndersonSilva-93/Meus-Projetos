@@ -11,7 +11,7 @@ body {
     padding: 0;
     
         /* ... (seu código CSS existente) ... */
-        background-image: url("https://cdn.dribbble.com/userupload/11627400/file/still-500c8d964bf177ef735203e3e3804ac2.gif"); /* Substitua pelo caminho da sua imagem */
+        background-image: url("https://pbs.twimg.com/media/F5R40qGXEAAPYyb.jpg:large"); /* Substitua pelo caminho da sua imagem */
         background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
         background-position: center; /* Centraliza a imagem   
      */
@@ -24,7 +24,7 @@ body {
                      -4px -4px 8px rgba(255, 255, 255, 0.3);
         text-align: center;
         text-decoration: none;
-        font-size: 18px; /* Ajuste o valor para o tamanho desejado */
+        font-size: 18px; /* Ajustar o valor para o tamanho desejado */
       }
 
 h1 {
@@ -150,3 +150,19 @@ footer {
         height: 50vh; 
     }
 }
+
+.gifteste {
+    position: fixed; 
+        bottom: 0;
+left: 0;
+    width: 100%;
+    height: 50px;
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/868487510162205395/03DC7E4157E0CE05A25716179164A46C41A64DCA/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+background-repeat: repeat-x; /*faz o gif se repetir*/
+background-size: contain; 
+animation: correr 5s linear infinite;
+
+
+}
+
+
